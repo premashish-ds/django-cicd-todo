@@ -1,5 +1,5 @@
 def call(String var_email) {
-    echo "var_email: ${var_email}"
-    echo "Current login user: ${env.USER}"
-    echo "Current job name: ${env.JOB_NAME}"
+    println("var_email: ${var_email}")
+    println("Current login user: ${env.USER}")
+    println("Current job name: ${env.JOB_NAME}")
 }
